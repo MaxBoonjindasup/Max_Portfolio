@@ -8,6 +8,15 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			#main-post {
+				object-fit: cover;
+				
+				@media (max-width: 375px) {
+				min-height: 400px;
+				}
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -59,8 +68,10 @@
 							Here I explore 5 classification methods in identifying cardiovascular disease in patients.
 						</p>
 					</header>
-					<a href="https://github.com/MaxBoonjindasup/heart_disease_predictor" class="image main"><img src="images/heart2.jpg" alt="">
-					</a>
+					<a href="https://github.com/MaxBoonjindasup/heart_disease_predictor" class="image main">
+						<img id = "main-post" src="images/heart2.jpg" alt="picture of a heart">
+					</a>					
+
 				<!-- <ul class="actions special">
 						<li><a href="https://github.com/MaxBoonjindasup/heart_disease_predictor" class="button large">Full Story</a></li>
 					</ul> -->
